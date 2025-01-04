@@ -1,3 +1,420 @@
-*{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Background Section */
+.background {
+    background-color: rgb(116, 198, 157);
+}
+
+/* Main Container */
+.main-container {
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 133px;
+    padding-right: 132px;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    text-align: right;
+    text-decoration: none;
+}
+
+.nav-link {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    text-align: right;
+    text-decoration: none;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 125%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+/* Header Content */
+.header-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome-section {
+    margin-top: 43px;
+    margin-bottom: 68.5px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-align: left;
+    text-transform: uppercase;  
+}
+
+.main-title {
+    color: rgb(255, 255, 255);
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 10px 47px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.explore-link {
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-image {
+    margin-left: auto;
+    width: 644.28px;
+    margin-bottom: 25px;
+}
+
+/* Partners Section */
+.partners-section {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 74.5px;
+    margin-bottom: 52px;
+    padding-left: 133px;
+    padding-right: 132px;
+    text-align: center;
+}
+
+.partners-title {
+    color: rgb(116, 198, 157);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    color: rgb(0, 0, 0);
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.section-subtitle {
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.logos {
+    display: flex;
+    width: 100%;
+    gap: 68px;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    flex-wrap: wrap;
+}
+
+.learn-more-button {
+    padding: 12px 29px;
+    background-color: black;
+}
+
+.learn-more-link {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Content Section */
+.content-section {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 74.5px;
+    margin-bottom: 52px;
+    padding-left: 133px;
+    padding-right: 132px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.content-text {
+    max-width: 480px;
+    padding: 88.63px 0;
+}
+
+.content-title {
+    color: rgb(33, 37, 41);
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.content-description {
+    color: rgba(33, 37, 41, 0.5);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* Team Section */
+.team-section {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 74.5px;
+    margin-bottom: 52px;
+    padding-left: 133px;
+    padding-right: 132px;
+    flex-wrap: wrap;
+    margin-bottom: 105px;
+}
+
+.team-members {
+    width: 100%;
+    margin-top: 74px;
+    margin-bottom: 122px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.member {
+    width: 252px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    padding: 0 40px 0 40px;
+    flex-wrap: wrap;
+}
+
+.member-photo {
+    margin: 20px 0 19px 0;
+}
+
+.member-name {
+    color: rgb(33, 37, 41);
+    font-family: Crimson Text;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.member-role {
+    color: rgba(33, 37, 41, 0.75);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 19px;
+}
+
+/* Footer Section */
+footer {
+    padding: 51px 131px 42px 131px;
+    background: rgb(116, 198, 157);
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logos {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-image {
+    width: 10px;
+}
+
+@media(max-width:491px){
+    .main-image {
+        width: 100%;
+    }
+    .content-image {
+        width: 100%;
+    }
+    .footer {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .footer-image {
+        width: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .main-container, .partners-section, .content-section, .team-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .background {
+        background-color: rgb(116, 198, 157);
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    ul {
+        display: none;   
+    }
+    ul, .nav-link {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .main-image {
+        width: 335px;
+    }
+
+    .logo {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .welcome-section {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .member {
+        gap: 20px;
+    }
+
+    h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .main-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .main-image {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .logos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team-members {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .member {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .background, footer {
+        background-color: rgb(116, 198, 157);
+    }
 }
